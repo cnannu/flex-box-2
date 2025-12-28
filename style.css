@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,.box,footer{
+    padding: 1em;
+}
+header{
+    background-color: yellowgreen;
+    height: 20vh;
+    width: 100%;
+}
+main{
+    display: flex;
+}
+.box1{
+    height: 60vh;
+    flex-grow:1;
+}
+.box2{
+    background-color:beige;
+    height: 60vh;
+    width: 20%;
+}
+.box3{
+    background-color:#D7E8D4 ;
+    height: 60vh;
+    width: 20%;
+}
+footer{
+    background-color: yellowgreen;
+    height:20vh;
+    width: 100%;
+}
